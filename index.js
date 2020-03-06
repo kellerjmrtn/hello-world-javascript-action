@@ -18,7 +18,7 @@ try {
   const client = new github.GitHub(repoToken);
   const rawPayload = github.context.payload;
   console.log(simpleGit);
-  simpleGit.diff(null, (err, result) => {
+  simpleGit().diff(null, (err, result) => {
 
     // err is null unless this command failed
     // result is the raw output of this command

@@ -17,6 +17,7 @@ try {
   const repoToken = core.getInput("repo-token");
   const client = new github.GitHub(repoToken);
   const rawPayload = github.context.payload;
+  console.log(simpleGit);
   simpleGit.diff(null, (err, result) => {
 
     // err is null unless this command failed

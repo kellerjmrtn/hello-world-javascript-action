@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/kellerjmrtn/hello-world-javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^2.1.1",
     "simple-git": "^1.131.0"
   }
